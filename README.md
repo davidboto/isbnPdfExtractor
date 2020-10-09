@@ -8,15 +8,15 @@ The solution applied is yet very naive and feel free to improve/tweak as you lik
 
 1. Clone this repository
 ```shell
-
+git clone git@github.com:davidboto/SinacorPDFParser.git
 ```
 
-2.
+2. Build
 ```shell
 $ gradle shadowJar
 ```
 
-3.
+3. Execute
 ```shell
 $ java -jar build/lib/isbnPdfExtractor-all-jar --directory <path/to/pdfs>
 ```

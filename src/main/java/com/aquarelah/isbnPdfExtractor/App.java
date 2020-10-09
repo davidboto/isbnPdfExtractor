@@ -36,7 +36,7 @@ public class App {
 		CommandLine cmd = cmdLineParser.parse(options, args);
 		 
 		if (!cmd.hasOption("directory")) {
-			formatter.printUsage(writer, 80, "java -jar build/libs/ebook-file-renamer-all.jar", options);
+			formatter.printUsage(writer, 80, "java -jar build/libs/isbnPdfExtractor-all.jar", options);
 			writer.flush();
 			System.exit(0);
 		} 
